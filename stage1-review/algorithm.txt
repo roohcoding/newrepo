@@ -1,0 +1,27 @@
+Stage1- review Algorithm
+(
+
+Step 1:- Open Git Terminal > create folder mkdir stage1-review > create files x.java , y.py , z.js by using touch command > create day4.sh and algorithm.txt using touch command.
+         Output: 1) stage1-review created.
+                 2) Files x.java, y.py, z.js created.
+                 3) day4.sh and algorithm.txt created.
+
+
+Step 2:- Create folders X, Y, Z using mkdir command in folder stage1-review.
+         Output: stage1review > X > Y > Z
+
+Step 3:- create nested folder java, py, js in repective folder X, Y, Z by using mkdir -p
+         Output: nested folder created
+                 X/java
+                 Y/py
+                 Z/js
+Step 4:- Now we have to move files x.java, y.py, z.js in te folder X/java, Y/py, Z/js by using for loop in nano editor
+         command nano day4.sh 
+         Output: X/java/x.java
+                 Y/py/y.py
+                 Z/js/z.js
+        for loop syntax (for ls file name
+                         do 
+                           mv file/folder
+                         done )
+         
