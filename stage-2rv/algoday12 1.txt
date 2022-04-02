@@ -1,0 +1,45 @@
+Final Review Day-12 Algorithm
+
+step1) create file using touch arth.sh and algoday12.txt
+expected result:- arth.sh
+                  algoday12.txt
+
+step2) write a program to take inputs a,b and c for computing 
+       a+b*c
+       a*b+c
+       c+a/b
+       a%b+c
+ 
+Expected Output:-
+$ ./arth.sh
+Enter first number 5
+Enter second number9
+Enter Third number 8
+5 9 8
+77 53 8 13
+
+step 3) using dictionary store all the result values in dictionary
+       *using bubble sort method compute the esult first in ascending order and then descending order.
+Expected Output:-
+result1 => 77
+result3 => 8
+result2 => 53
+result4 => 13
+Array : 77 53 8 13
+Array in original order
+77 53 8 13
+Array in ascending order :
+8 13 53 77
+Array in original order
+77 53 8 13
+Array in descending order :
+77 53 13 8
+
+
+Question 2 :-
+
+Step 1) create file touch string.txt
+step 2) nano string.txt > type your input
+Step 3) cat string.txt
+Step 4) use grep commant to get frequency of string 
+command [ grep -o 'e' baeldung.txt | wc -l ]
